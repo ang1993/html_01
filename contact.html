@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🙊 Tell me something</title>
+</head>
+<body>
+    <div><a href="index.html">Back to Index</a></div>
+    <form action="/">
+        <fieldset>
+        <label for="firstName">
+          <h2>What do you want me to know?</h2>
+          <p>What's your name?</p>
+          <input name="firstName" type="text" required>
+        </label>
+        <label for="lastName">
+          <p>And your surname?</p>
+          <input name="lastName" type="text" required>
+        </label>
+        <label for="age">
+          <p>How old are you?</p>
+          <input name="age" type="number">
+          </label>
+          </fieldset>
+          <fieldset>
+        </label>
+          <p>Do you prefer...?</p>
+      <input type="radio" id="dog" name="fav_color" value="animals">
+      <label for="dog">Dogs</label><br>
+      <input type="radio" id="cat" name="fav_color" value="animals">
+      <label for="cat">Cats</label>
+</fieldset>
+    <fieldset>
+          <label for="food">Select your favorite:</label><br>
+      <select name="food" id="food">
+        <option value="pizza">Pizza</option>
+        <option value="pasta">Pasta</option>
+        <option value="sushi">Sushi</option>
+        <option value="mum">My mum's soup</option>
+        <option value="paella">Paella</option>
+        <option value="brócoli">Brócoli</option>
+      </select>
+    </fieldset>
+    <fieldset>
+         <p><label for="mensaje">Your message:</label></p>
+      <textarea id="mensaje" name="mensaje" rows="6" cols="60" required>Type here!</textarea>
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Enviar">
+        </input>
+    </fieldset>
+      </form>
+</body>
+</html>
